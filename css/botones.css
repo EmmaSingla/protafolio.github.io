@@ -1,0 +1,19 @@
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+
+.boton {
+    border-color: brown;
+    border-radius: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: rgb(180, 102, 102);
+    opacity: 80%;
+}
+
